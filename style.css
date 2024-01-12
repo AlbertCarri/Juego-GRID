@@ -1,0 +1,128 @@
+body {
+    position:relative;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    Background: rgb(44, 44, 44);
+    margin-top: 50px;
+}
+
+.tablero-juego {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkseagreen;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.puntaje{
+    width: 500px;
+    background-color: darkseagreen;
+    color: black;
+    margin: 0 auto 10px auto;
+    padding: 10px 0 10px ;
+    border-radius: 20px;
+    font-size: 24px;
+    text-align: center;   
+}
+
+.cuadros {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px 0px black;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: .5s;
+}
+
+.imgUp {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.imgBack {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.boton{
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
+#botonInicio {
+    font-size: 24px;
+    background: darkseagreen;
+    width: 240px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#botonInicio:hover {
+    border: 4px solid rgb(202, 194, 194);
+    background: rgb(81, 100, 81);
+    transition: .5s;
+}
+
+#win {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 8%;
+    z-index: 2;
+    width: 250px;
+    height: 85px;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.ganaste{
+    width: 400px;
+    height: 100px;
+    background: transparent;
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px 0px black;
+}

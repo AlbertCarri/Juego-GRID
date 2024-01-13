@@ -7,4 +7,7 @@ en la programación sin copiarme de nada y sin ayuda. Solo mirando los manuales
 disponibles en línea y tutorials.
 La finalidad de este proyecto es ponerme a prueba y reafirmar conocimientos.
 
+
+------------Jugalo ahora-----------
+
 https://juego-de-pares.netlify.app/

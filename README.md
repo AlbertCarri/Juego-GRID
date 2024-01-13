@@ -6,3 +6,5 @@ Seguramente no esté siguiendo las buenas prácticas, ya que solo usé mi lógic
 en la programación sin copiarme de nada y sin ayuda. Solo mirando los manuales
 disponibles en línea y tutorials.
 La finalidad de este proyecto es ponerme a prueba y reafirmar conocimientos.
+
+https://juego-de-pares.netlify.app/

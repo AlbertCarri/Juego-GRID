@@ -1,3 +1,11 @@
+# Juego de la memoria 
+
+  ![leia](/img/8.png)
+
+### Realizado en HTML, CSS y Javascript
+
+### Descripción:
+
 Este es un versión del juego de memoria para formar pares.
 Esta es una versión 100 % mia, sin utilizar algoritmos copiados ni frameworks.
 Realizado en Html, Css y javascript con los conocimientos adquiridos hasta
